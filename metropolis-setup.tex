@@ -1,0 +1,57 @@
+%\setbeamercolor{progress bar}{
+%	use=alerted text,
+%	fg=blue,
+%	bg=alerted text.fg!50!black!30
+%}
+
+\setbeamertemplate{frame footer}{\footnotesize\insertsection}
+\setbeamerfont{alerted text}{series=\bfseries,size=\huge}
+
+\metroset{numbering=fraction,block=fill,progressbar=frametitle}
+
+\makeatletter
+\setlength{\metropolis@titleseparator@linewidth}{1.5pt}
+\setlength{\metropolis@progressonsectionpage@linewidth}{1.5pt}
+\setlength{\metropolis@progressinheadfoot@linewidth}{1.5pt}
+
+\setbeamertemplate{title page}{
+	\begin{minipage}[b][\paperheight]{\textwidth}
+		\ifx\inserttitlegraphic\@empty\else\usebeamertemplate*{title graphic}\fi
+		\vfill%
+		\ifx\inserttitle\@empty\else\usebeamertemplate*{title}\fi
+		\ifx\insertsubtitle\@empty\else\usebeamertemplate*{subtitle}\fi
+		\usebeamertemplate*{title separator}
+		\vspace*{5mm}
+
+		\begin{tabularx}{\textwidth}{Xr}
+			\makecell[l]{
+				\ifx\beamer@shortauthor\@empty\else\usebeamertemplate*{author}\fi\\
+				\ifx\insertinstitute\@empty\else\usebeamertemplate*{institute}\fi
+			}
+		\end{tabularx}
+
+		\vfill
+		\vspace*{1mm}
+	\end{minipage}
+}
+
+\setbeamertemplate{title}{
+	\linespread{1.0}%
+	\inserttitle%
+	\par%
+	\vspace*{0.5em}
+}
+
+\setbeamertemplate{subtitle}{
+	\insertsubtitle%
+	\par%
+	\vspace*{0.5em}
+}
+
+\setbeamertemplate{author}{
+	%\linespread{1.0}%
+	\large{\insertauthor}%
+	\par%
+	\vspace*{0.5em}
+}
+\makeatother
