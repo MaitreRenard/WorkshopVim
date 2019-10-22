@@ -2,10 +2,10 @@
 
 Support pour le workshop Hack2g2 sur Vim du 07/11
 
-## Intro
+## Intro
 
 
-## Let's go
+## Let's go
 ```vim
 noremap <Up> <Nop>
 noremap <Down> <Nop>
