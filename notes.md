@@ -3,6 +3,7 @@
 ## Historique
 
 Vi > ViM > NeoVim
+Créé en 1976 par Bill Joy originellement distribué sur Unix BSD
 
 ## Les bases
 
