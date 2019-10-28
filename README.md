@@ -2,7 +2,14 @@
 
 Support pour le workshop Hack2g2 sur Vim du 07/11
 
-## Pour le présentateur
+## Pour la modification
+
+```bash
+apt update && apt -y upgrade
+apt -y install texlive-xetex
+```
+
+## Pour la présentation
 
 ```bash
 apt update && apt -y upgrade && apt -y install slop
