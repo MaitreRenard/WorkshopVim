@@ -6,7 +6,8 @@ pdf:
 	xelatex diapo.tex
 
 saveme: pdf
-	cp diapo.pdf ../workshop_vim.pdf
+	cp diapo.pdf workshop_vim.pdf
+	rm -f diapo.pdf
 	$(MAKE) clean
 
 clean:

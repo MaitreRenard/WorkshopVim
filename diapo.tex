@@ -23,98 +23,108 @@
 \author{MasterFox}
 
 \begin{document}
-	  \maketitle
+\maketitle
 
-		\section{Vi : Les origines}
-			\begin{frame}{\textbf{C'est l'histoire de la Vi}}
+\section{Vi : Les origines}
+\begin{frame}{\textbf{C'est l'histoire de la Vi}}
 
-				\center
-				\includegraphics[height=96]{img/bill-joy.jpeg}
-				\includegraphics[height=96]{img/bram-moolenaar.jpg}
-				
-				%Tout commença en 1976
-				Vi \rightarrow Vim \rightarrow Neovim\\
-				\vspace{20pt}
+	\center
+	\includegraphics[height=96]{img/bill-joy.jpeg}
+	\includegraphics[height=96]{img/bram-moolenaar.jpg}
 
-				\raisebox{-0.5\height}{\includegraphics[height=42]{img/logo-vim.png}}
-				\hspace{10pt}
-				\raisebox{-0.5\height}{\includegraphics[height=42]{img/logo-neovim.png}}
+	%Tout commença en 1976
+	Vi \rightarrow Vim \rightarrow Neovim\\
+	\vspace{20pt}
 
-			\end{frame}
+	\raisebox{-0.5\height}{\includegraphics[height=42]{img/logo-vim.png}}
+	\hspace{10pt}
+	\raisebox{-0.5\height}{\includegraphics[height=42]{img/logo-neovim.png}}
 
-		\section{Les bases}
-			\begin{frame}{Déplacements relatifs}
-				\center
-				\raisebox{-0.5\height}{\includegraphics{img/control-keys.png}}
-				\begin{tabular}{|c|c|}
-					\hline
-					\textbf{Mnemonique} & \textbf{Signification} \\ 
-					\hline
-					\hline
-					w & word \\ 
-					\hline
-					e & end of word \\ 
-					\hline
-					b & backward \\ 
-					\hline
-					) & phrase \\ 
-					\hline
-					\} & paragraphe/fonction \\ 
-					\hline
-				\end{tabular}
-				\includegraphics[width=256]{img/moves.png}
-			\end{frame}
+\end{frame}
 
-			\begin{frame}{Déplacements absolus}
-				\%
-				G
+\section{Les bases}
+	\begin{frame}{Déplacements relatifs}
+		\center
+		\raisebox{-0.5\height}{\includegraphics{img/control-keys.png}}
+		\begin{tabular}{|c|c|}
+			\hline
+			\textbf{Mnemonique} & \textbf{Signification} \\ 
+			\hline
+			\hline
+			w & word \\ 
+			\hline
+			e & end of word \\ 
+			\hline
+			b & backward \\ 
+			\hline
+			) & phrase \\ 
+			\hline
+			\} & paragraphe/fonction \\ 
+			\hline
+		\end{tabular}
+		\includegraphics[width=256]{img/moves.png}
+	\end{frame}
 
-				H, L, M
-			\end{frame}
+	\begin{frame}{Déplacements absolus}
+		\begin{columns}[C]
+			\begin{column}{0.48\textwidth}
+					\%
+					G
+			\end{column}
+			\begin{column}{0.47\textwidth}
+				\includegraphics[width=160pt]{img/position.png}
+			\end{column}
+		\end{columns}
 
-		\begin{frame}[standout]
-			Jouons à un PETIT JEU !\\
-			\vspace{10pt}
-			\includegraphics[width=48]{img/edit-vimrc.png}\\
-			\vspace{10pt}
-			\includegraphics[width=128]{img/harder.png}
-		\end{frame}
+	\end{frame}
 
-		\section{Les registres}
-			\begin{frame}{Keskessé}
-			\end{frame}
+	\begin{frame}[standout]
+		Jouons à un PETIT JEU !\\
+		\vspace{10pt}
+		\includegraphics[width=48]{img/edit-vimrc.png}\\
+		\vspace{10pt}
+		\includegraphics[width=128]{img/harder.png}
+	\end{frame}
 
-			\begin{frame}{Les marques}
-				\center
-				\includegraphics[height=100]{img/markers.png}
-			\end{frame}
+\section{Les registres}
+	\begin{frame}{Keskessé}
+	\end{frame}
 
-			\begin{frame}{Les macros}
-				\center
-				\includegraphics[height=100]{img/markers.png}
-			\end{frame}
+	\begin{frame}{Les marques}
+		\center
+		\includegraphics[height=100]{img/mark.jpeg}\\
+		\includegraphics[height=100]{img/markers.png}
+	\end{frame}
 
-		\section{Le début des trucs bien stylés}
-		\section{Le \textit{R I C E}}
+	\begin{frame}{Les macros}
+		\center
+		\includegraphics[height=100]{img/markers.png}
+	\end{frame}
 
-	\begin{appendix}
+\section{Le début des trucs bien stylés}
+	\begin{frame}{Let's go flag}
+	\end{frame}
+	
+\section{Le \textit{R I C E}}
 
-		\begin{frame}[standout]
-			Merci d'avoir écouté !
-		\end{frame}
+\begin{appendix}
 
-		\begin{frame}
-			\frametitle{Sources}
-			\begin{itemize}
+	\begin{frame}[standout]
+		Merci d'avoir écouté !
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{Sources}
+		\begin{itemize}
 				%Documentation
-				\item \href{https://neovim.io/}{Neovim}
-				\item \href{https://www.vim.org}{Vim}
-			\end{itemize}
-		\end{frame}
+			\item \href{https://neovim.io/}{Neovim}
+			\item \href{https://www.vim.org}{Vim}
+		\end{itemize}
+	\end{frame}
 
-		\begin{frame}[standout]
-			Des questions ?
-		\end{frame}
+	\begin{frame}[standout]
+		Des questions ?
+	\end{frame}
 
-	\end{appendix}
+\end{appendix}
 \end{document}
