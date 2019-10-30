@@ -83,9 +83,13 @@ Cette seconde partie se fera avec les paroles des Lorientaises ([ici](resources/
 
 Cette avant-dernière partie se fera sur un bout de code C quelconque.
 
-1. Re-tabuler les premières fonctions
+1. Re-tabuler la première fonction
 
-`4}=`
+Goto ligne 179 puis `%=` ou `}=`.
+
+1. Puis les 2 fonctions suivantes
+
+Goto ligne 213 puis `=2}`.
 
 2. Changer du texte entre guillemets
 
@@ -93,8 +97,11 @@ Cette avant-dernière partie se fera sur un bout de code C quelconque.
 
 3. Insérer le résultat d'une commande
 
-`:.!ls -A`
+On va s'ajouter en tant qu'auteur dans les copyright
+
+`:.!whoami`
+`:r !whoami`
 
 ### Test
 
-Ici on va faire 2/3 exos à l'aveugle
+Ici on va faire 2/3 exos à l'aveugle (x2)

@@ -177,31 +177,31 @@ extern const struct obs_kernel_param __setup_start[], __setup_end[];
 
 static bool __init obsolete_checksetup(char *line)
 {
-	const struct obs_kernel_param *p;
-	bool had_early_param = false;
+const struct obs_kernel_param *p;
+bool had_early_param = false;
 
-	p = __setup_start;
-	do {
-		int n = strlen(p->str);
-		if (parameqn(line, p->str, n)) {
-			if (p->early) {
-				/* Already done in parse_early_param?
-				 * (Needs exact match on param part).
-				 * Keep iterating, as we can have early
-				 * params and __setups of same names 8( */
-				if (line[n] == '\0' || line[n] == '=')
-					had_early_param = true;
-			} else if (!p->setup_func) {
-				pr_warn("Parameter %s is obsolete, ignored\n",
-					p->str);
-				return true;
-			} else if (p->setup_func(line + n))
-				return true;
-		}
-		p++;
-	} while (p < __setup_end);
+p = __setup_start;
+do {
+int n = strlen(p->str);
+if (parameqn(line, p->str, n)) {
+if (p->early) {
+/* Already done in parse_early_param?
+* (Needs exact match on param part).
+* Keep iterating, as we can have early
+* params and __setups of same names 8( */
+if (line[n] == '\0' || line[n] == '=')
+had_early_param = true;
+} else if (!p->setup_func) {
+pr_warn("Parameter %s is obsolete, ignored\n",
+p->str);
+return true;
+} else if (p->setup_func(line + n))
+return true;
+}
+p++;
+} while (p < __setup_end);
 
-	return had_early_param;
+return had_early_param;
 }
 
 /*
@@ -213,14 +213,14 @@ EXPORT_SYMBOL(loops_per_jiffy);
 
 static int __init debug_kernel(char *str)
 {
-	console_loglevel = CONSOLE_LOGLEVEL_DEBUG;
-	return 0;
+				console_loglevel = CONSOLE_LOGLEVEL_DEBUG;
+return 0;
 }
 
-static int __init quiet_kernel(char *str)
+		static int __init quiet_kernel(char *str)
 {
-	console_loglevel = CONSOLE_LOGLEVEL_QUIET;
-	return 0;
+console_loglevel = CONSOLE_LOGLEVEL_QUIET;
+return 0;
 }
 
 early_param("debug", debug_kernel);
