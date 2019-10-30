@@ -104,4 +104,5 @@ On va s'ajouter en tant qu'auteur dans les copyright
 
 ### Test
 
-Ici on va faire 2/3 exos à l'aveugle (x2)
+Les tests vont se faire en binome à l'aveugle.
+Chacun va se voir attribuer un 
