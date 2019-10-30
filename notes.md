@@ -4,6 +4,7 @@
 
 Vi > ViM > NeoVim
 Créé en 1976 par Bill Joy originellement distribué sur Unix BSD
+Le mec tellement badass qu'il développe son éditeur avec son éditeur
 
 ## Les bases
 
