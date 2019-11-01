@@ -45,7 +45,7 @@ noremap <Right> <Nop>
 
 ## Exercices
 
-### Première partie
+### Première partie
 
 Cette première partie se fera avec un fichier rempli de garbage mais des petites perles aux endroits demandés.
 
@@ -65,7 +65,7 @@ Cette première partie se fera avec un fichier rempli de garbage mais des petite
 
 `gg`
 
-### Seconde partie
+### Seconde partie
 
 Cette seconde partie se fera avec les paroles des Lorientaises ([ici](resources/lyrics)).
 
@@ -79,7 +79,7 @@ Cette seconde partie se fera avec les paroles des Lorientaises ([ici](resources/
 
 3. Remplacer "[REFRAIN]" par le refrain
 
-### Troisième partie
+### Troisième partie
 
 Cette avant-dernière partie se fera sur un bout de code C quelconque.
 
@@ -102,7 +102,7 @@ On va s'ajouter en tant qu'auteur dans les copyright
 `:.!whoami`
 `:r !whoami`
 
-### Test
+### Test
 
 Les tests vont se faire en binome à l'aveugle.
 Chacun va se voir attribuer un 
