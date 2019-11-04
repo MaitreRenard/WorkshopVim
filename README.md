@@ -81,7 +81,7 @@ Cette seconde partie se fera avec les paroles des Lorientaises ([ici](resources/
 
 ### Troisième partie
 
-Cette avant-dernière partie se fera sur un bout de code C quelconque.
+Cette avant-dernière partie se fera sur la première ligne de code exécutée par Linux x86 ([ici](resources/main.c)).
 
 1. Re-tabuler la première fonction
 
@@ -105,4 +105,5 @@ On va s'ajouter en tant qu'auteur dans les copyright
 ### Test
 
 Les tests vont se faire en binome à l'aveugle.
-Chacun va se voir attribuer un 
+Chacun va se voir attribuer un fichier qu'il traitera à l'aveugle avec l'aide de l'autre.
+
