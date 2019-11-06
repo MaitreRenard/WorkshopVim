@@ -51,7 +51,8 @@ noremap <Right> <Nop>
 
 ### Première partie
 
-Cette première partie se fera sur le script (tronqué) de Bee Movie mais des petites perles aux endroits demandés.
+Cette première partie se fera sur le script (tronqué) de Bee Movie ([ici](resources/garbage)) mais avec des PRANKS aux endroits demandés.
+De manière à être sûr d'être arrivé au bon endroit.
 
 __1. Aller à la fin du fichier__
 
@@ -72,34 +73,35 @@ __4. Aller au début du fichier__
 ### Seconde partie
 
 Cette seconde partie se fera avec les paroles des Lorientaises ([ici](resources/lyrics)).
+Ce sera surtout des exercices de manipulation.
 
-1. Recopier les lignes en double
+__1. Recopier les lignes en double__
 
 `/x2\nqmhhDYpnq9@m`
 
-2. Mettre en majuscule "*Lesquels*"
+__2. Mettre en majuscule "*Lesquels*"__
 
 `/*\nqmxgUw$xn9@m`
 
-3. Remplacer "[REFRAIN]" par le refrain
+__3. Remplacer "[REFRAIN]" par le refrain__
 
 ### Troisième partie
 
 Cette avant-dernière partie se fera sur la première ligne de code exécutée par Linux x86 ([ici](resources/main.c)).
 
-1. Re-tabuler la première fonction
+__1. Re-tabuler la première fonction__
 
 Goto ligne 179 puis `%=` ou `}=`.
 
-1. Puis les 2 fonctions suivantes
+__1. Puis les 2 fonctions suivantes__
 
 Goto ligne 213 puis `=2}`.
 
-2. Changer du texte entre guillemets
+__2. Changer du texte entre guillemets__
 
 `ci"Hello world !<Esc>`
 
-3. Insérer le résultat d'une commande
+__3. Insérer le résultat d'une commande__
 
 On va s'ajouter en tant qu'auteur dans les copyright
 
