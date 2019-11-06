@@ -17,7 +17,7 @@ cd /opt && git clone https://gitlab.com/wavexx/screenkey.git
 cd screenkey && ./screenkey -t 0.7 -p fixed -g $(slop -n -f '%g')
 ```
 
-## Fichiers
+## Fichiers
 
 Dans `resources/` !
 
