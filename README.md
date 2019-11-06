@@ -1,6 +1,7 @@
 # Workshop Vim
 
 Support pour le workshop Hack2g2 sur Vim du 07/11.
+
 La présentation a été réalisée en LaTeX avec le thème [Metropolis](https://github.com/matze/mtheme).
 
 ## Pour l'utilisation/la modification
@@ -52,19 +53,19 @@ noremap <Right> <Nop>
 
 Cette première partie se fera avec un fichier rempli de garbage mais des petites perles aux endroits demandés.
 
-1. Aller au tier du fichier
+__1. Aller au tier du fichier__
 
 `33%`
 
-2. Aller à la ligne 69 du fichier
+__2. Aller à la ligne 69 du fichier__
 
 `69G`
 
-3. Aller à la fin du fichier
+__3. Aller à la fin du fichier__
 
 `G`
 
-4. Aller au début du fichier
+__4. Aller au début du fichier__
 
 `gg`
 
