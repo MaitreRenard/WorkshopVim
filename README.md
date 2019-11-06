@@ -113,3 +113,14 @@ On va s'ajouter en tant qu'auteur dans les copyright
 Les tests vont se faire en binome à l'aveugle.
 Chacun va se voir attribuer un fichier qu'il traitera à l'aveugle avec l'aide de l'autre.
 
+#### Premier fichier
+
+On fait : * * * 
+
+Et on obtient : un petit chat (cf. [le petit chat](resources/result_surprise_0)).
+
+#### Second fichier
+
+On fait : * * * 
+
+Et on obtient : une grosse surprise (cf. [la grosse surprise](resources/result_surprise_1)).
