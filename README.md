@@ -120,6 +120,12 @@ On fait :
 * On va à la ligne 13 `13G`
 * On appelle la macro
 
+* On sélectionne les lignes de X à Y
+* Et on remplace `$` par `\t` et `X` par ` `
+
+* On va à la ligne 16 `16G`
+* On ramene d'une ligne `J`
+
 * On va au caractère 16 `16|`
 * On va à la ligne 24 `24G`
 * On copie
