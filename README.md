@@ -115,7 +115,16 @@ Chacun va se voir attribuer un fichier qu'il traitera à l'aveugle avec l'aide d
 
 #### Premier fichier
 
-On fait : * * * 
+On fait :
+
+*
+* On définit une macro ramenage `qrJxq`
+
+*
+* On ajoute une ligne au-dessus `O<Esc>`
+* On ramène 2 lignes `2J`
+* On appelle la macro de ramenage `3@r`
+* On ramène les 3 dernières lignes `3J`
 
 Et on obtient : un petit chat (cf. [le petit chat](resources/result_surprise_0)).
 
