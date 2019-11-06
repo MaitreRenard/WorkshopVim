@@ -51,19 +51,19 @@ noremap <Right> <Nop>
 
 ### Première partie
 
-Cette première partie se fera avec un fichier rempli de garbage mais des petites perles aux endroits demandés.
+Cette première partie se fera sur le script (tronqué) de Bee Movie mais des petites perles aux endroits demandés.
 
-__1. Aller au tier du fichier__
+__1. Aller à la fin du fichier__
 
-`33%`
+`G`
 
 __2. Aller à la ligne 69 du fichier__
 
 `69G`
 
-__3. Aller à la fin du fichier__
+__3. Aller au tier du fichier__
 
-`G`
+`33%`
 
 __4. Aller au début du fichier__
 
