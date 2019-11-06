@@ -119,6 +119,7 @@ On fait :
 
 * On va à la ligne 13 `13G`
 * On appelle la macro
+
 * On va au caractère 16 `16|`
 * On va à la ligne 24 `24G`
 * On copie
