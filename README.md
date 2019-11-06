@@ -1,12 +1,13 @@
 # Workshop Vim
 
-Support pour le workshop Hack2g2 sur Vim du 07/11
+Support pour le workshop Hack2g2 sur Vim du 07/11.
+La présentation a été réalisée en LaTeX avec le thème [Metropolis](https://github.com/matze/mtheme).
 
-## Pour la modification
+## Pour l'utilisation/la modification
 
 ```bash
 apt update && apt -y upgrade
-apt -y install texlive-xetex
+apt -y install texlive-latex-extra # PDFLatex
 ```
 
 ## Pour la présentation
@@ -21,8 +22,10 @@ cd screenkey && ./screenkey -t 0.7 -p fixed -g $(slop -n -f '%g')
 
 Dans `resources/` !
 
+* Le script de Bee Movie
 * Les paroles des lorientaises
-* Cours d'IS ?
+* Le premier fichier exécuté en lancant linux en x86
+* 2 petites surprises
 
 ## Intro
 
