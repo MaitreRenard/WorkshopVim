@@ -101,24 +101,13 @@ On part de (cf. [Fichier de départ](resources/surprise_0)).
 
 On fait :
 
-* On va à la ligne 13 `13G`
-* On appelle la macro
-
-* On sélectionne les lignes de X à Y
-* Et on remplace `$` par `\t` et `X` par ` `
-
-* On va à la ligne 16 `16G`
-* On ramene d'une ligne `J`
-
-* On va au caractère 16 `16|`
-* On va à la ligne 24 `24G`
-* On copie
-* On définit une macro ramenage `qrJxq`
-
-* On ajoute une ligne au-dessus `O<Esc>`
-* On ramène 2 lignes `2J`
-* On appelle la macro de ramenage `3@r`
-* On ramène les 3 dernières lignes `3J`
+* On va au 2nd paragraphe `}`
+* On supprime les 16 prochaines lignes `d16j`
+* On va à la fin du fichier ̀`G`
+* On colle `p`
+* On ramène la ligne et on supprime la fin `lDJ7lDJ2lD2lD`
+* On remplace les $ par 4 espaces `:%s/\$/    /g`
+* On remplace les X par des espaces `:%s/X/ /g`
 
 Et on obtient : un petit chat (cf. [le petit chat](resources/result_surprise_0)).
 
