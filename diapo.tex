@@ -45,12 +45,12 @@
 \section{Les bases}
 	\begin{frame}{Comment ça marche}
 		\center
-		\huge 3 modes\\
+		\huge \approx 3 modes\\
 		\vspace{5pt}
 		\large Normal, Insertion, Visuel\\
-		\vspace{10pt}
-		\textbf{Il faut être normal !}\\
 		\vspace{20pt}
+		\textbf{Il faut être normal !}\\
+		\vspace{30pt}
 		\includegraphics[height=50pt]{img/example.png}
 	\end{frame}
 
@@ -127,23 +127,29 @@
 				\end{itemize}
 			\end{column}
 			\begin{column}{0.47\textwidth}
-				\includegraphics[width=96]{img/chest.jpg}
+				\center
+				\includegraphics[width=64]{img/chest.png}
 			\end{column}
 		\end{columns}
 
-		\vspace{5pt}
+		\\
+		\vspace*{0.4in}% 
 		Qui permettent de stocker "temporairement" des données.
+		\center
+		\includegraphics[height=32]{img/registers.png}
+	\end{frame}
+
+	\begin{frame}{Les macros et autres marabouteries}
+		\center
+		\includegraphics[height=80]{img/macro-and-regs.png}
+		%\includegraphics[height=32]{img/registers.png}
 	\end{frame}
 
 	\begin{frame}{Les marques}
 		\center
 		\includegraphics[height=100]{img/mark.jpeg}\\
-		\includegraphics[height=100]{img/markers.png}
-	\end{frame}
-
-	\begin{frame}{Les macros}
-		\center
-		\includegraphics[height=50]{img/macros.png}
+		\vspace{16pt}
+		\includegraphics[height=48]{img/markers.png}
 	\end{frame}
 
 	\begin{frame}[standout]
@@ -152,32 +158,46 @@
 
 \section{Vim power !}
 	\begin{frame}{Les bases}
-		\begin{columns}[C]
-			\begin{column}{0.50\textwidth}
-				\center
-				% Salut les utilisateurs de tmux
-				Afficher la page de manuel : K
-				Refaire la dernière action : .
-				Auto complétion : <C-n>
-			\end{column}
-			\begin{column}{0.47\textwidth}
-				\includegraphics[height=100]{img/splittin.png}\\
-			\end{column}
-		\end{columns}
+		\center
+		\begin{tabular}{|c|c|}
+			\hline
+			\textbf{Mnemonique} & \textbf{Signification} \\ 
+			\hline
+			\hline
+			% Salut les utilisateurs de tmux
+			K & Afficher la page de manuel \\ 
+			\hline
+			<C-r>= & Fais un calcul\\ 
+			\hline
+			. & Refaire la dernière action\\ 
+			\hline
+			gf & Ouvre le fichier\\ 
+			\hline
+			= & Tabule bien\\ 
+			\hline
+			<C-n> & Auto complétion\\ 
+			\hline
+		\end{tabular}\\
+		\vspace{5pt}
+		
+		\raisebox{-0.5\height}{\includegraphics[height=80]{img/splittin.png}}
+		\raisebox{-0.5\height}{\includegraphics[height=32]{img/sudo-tip.png}}\\
+		
 	\end{frame}
 
 	\begin{frame}{Let's go flag}
-		Utilisation de programmes externes\\
+		\center
+		\href{https://maitrerenard.github.io/workshop/cats.png}{https://maitrerenard.github.io/workshop/cats.png}\\
+		\vspace{1pt}
 		ga, g8\\
-		\includegraphics[height=32]{img/tools.png}\\
+		\vspace{1pt}
+		\includegraphics[height=48]{img/tools.png}\\
 		%apérictf humans
 	\end{frame}
 
 	\begin{frame}{Let's \textit{r i c e}}
-		%	Vim
-		%	curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim	
-		%	Neovim
-		%	curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim	
+		\center
+		\includegraphics[height=216]{img/init-vim.png}
 	\end{frame}
 
 \begin{appendix}
@@ -188,13 +208,25 @@
 
 	\begin{frame}
 		\frametitle{Sources}
+
+		%Documentation
 		\begin{itemize}
-				%Documentation
 			\item \href{https://neovim.io/}{Neovim https://neovim.io/}
 			\item \href{https://www.vim.org}{Vim https://www.vim.org}
 			\item \href{https://vim.fandom.com/wiki/}{Wiki Vim https://vim.fandom.com/wiki/}
+		\end{itemize}
+
+		%Sites intéressants
+		\begin{itemize}
 			\item \href{https://vimcolors.com/}{Vim Colorscheme https://vimcolors.com/}
 			\item \href{https://vimawesome.com/}{Vim Awesome https://vimawesome.com/}
+			\item \href{http://www.vimgolf.com/}{Vim Golf http://www.vimgolf.com/}
+		\end{itemize}
+
+		%Cheatsheet
+		\begin{itemize}
+			\item \href{https://vim.rtorr.com/}{Vim Web Cheatsheet https://vim.rtorr.com/}
+			\item \href{https://tinyurl.com/cheatsheet-vim}{Vim Cheatsheet https://tinyurl.com/cheatsheet-vim}
 		\end{itemize}
 	\end{frame}
 

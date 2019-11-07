@@ -22,30 +22,12 @@ cd screenkey && ./screenkey -t 0.7 -p fixed -g $(slop -n -f '%g')
 ## Fichiers
 
 Dans `resources/` !
+Pour faciliter l'accès aux fichiers j'ai créé un dépôt à part.
 
 * Le script de Bee Movie
 * Les paroles des lorientaises
 * Le premier fichier exécuté en lancant linux en x86
 * 2 petites surprises
-
-## Intro
-
-### Prenez des notes !
-
-```vim
-:tabe <file>
-:vs <file>
-:sp <file>
-<C-w> <h,j,k,l>
-```
-
-### Let's go
-```vim
-noremap <Up> <Nop>
-noremap <Down> <Nop>
-noremap <Left> <Nop>
-noremap <Right> <Nop>
-```
 
 ## Exercices
 
@@ -115,6 +97,8 @@ Chacun va se voir attribuer un fichier qu'il traitera à l'aveugle avec l'aide d
 
 #### Premier fichier
 
+On part de (cf. [Fichier de départ](resources/surprise_0)).
+
 On fait :
 
 * On va à la ligne 13 `13G`
@@ -131,7 +115,6 @@ On fait :
 * On copie
 * On définit une macro ramenage `qrJxq`
 
-*
 * On ajoute une ligne au-dessus `O<Esc>`
 * On ramène 2 lignes `2J`
 * On appelle la macro de ramenage `3@r`
@@ -141,6 +124,19 @@ Et on obtient : un petit chat (cf. [le petit chat](resources/result_surprise_0))
 
 #### Second fichier
 
-On fait : * * * 
+On part de (cf. [Fichier de départ](resources/surprise_1)).
+
+On fait :
+
+* On va à la ligne 11
+* On insère 4 . `4i.`
+* Refaites la même chose sur les 3 lignes suivantes
+* On supprime la ligne 17
+* On la colle avant
+* On va à la ligne 18 `18G`
+* Supprimer jusqu'à la fin `dG`
+* Aller à la ligne 4
+* Coller avant `P`
+* On inverse les lignes `:%!tac`
 
 Et on obtient : une grosse surprise (cf. [la grosse surprise](resources/result_surprise_1)).
