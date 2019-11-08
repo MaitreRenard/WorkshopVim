@@ -129,3 +129,53 @@ On fait :
 * On inverse les lignes `:%!tac`
 
 Et on obtient : une grosse surprise (cf. [la grosse surprise](resources/result_surprise_1)).
+
+## Configuration
+
+### Installation VIM Plug
+
+```bash
+# Vim
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim	
+# Neovim
+curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim	
+```
+### Configuration VIM
+
+Récupération du thème  [Monokai](monokai-tasty.vim)
+
+```vim
+" Interface
+syntax on
+colorscheme monokai-tasty
+
+" Default settings
+set number
+set relativenumber
+
+" Good indentation
+set tabstop=4 
+set shiftwidth=4
+
+" Show the friend
+set showmatch
+
+" Vim semi-hardmode
+noremap <Up> <Nop>
+noremap <Down> <Nop>
+noremap <Left> <Nop>
+noremap <Right> <Nop>
+
+" Easier escape from terminal mode
+tnoremap <Esc> <C-\><C-n>
+tnoremap <M-[> <Esc>
+tnoremap <C-v><Esc> <Esc>
+
+" Install plugins 
+" call plug#begin('~/.vim/plugged') For vim
+call plug#begin('~/.local/share/nvim/plugged')
+	Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+	Plug 'vim-airline/vim-airline'
+	Plug 'tpope/vim-fugitive'
+call plug#end()
+```
