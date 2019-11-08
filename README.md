@@ -142,7 +142,7 @@ curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.g
 ```
 ### Configuration VIM
 
-Récupération du thème  [Monokai](monokai-tasty.vim)
+Récupération du thème  [Monokai](https://github.com/patstockwell/vim-monokai-tasty)
 
 ```vim
 " Interface
